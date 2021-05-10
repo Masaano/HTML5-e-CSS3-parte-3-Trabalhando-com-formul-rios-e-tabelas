@@ -131,3 +131,8 @@ nav{
      transition: 1s all;
      cursor: pointer;
  }
+
+ .enviar:hover{
+     background: darkorange;
+     transform: scale(1.2)
+ }
