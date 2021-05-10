@@ -1,52 +1,94 @@
 body{
-    background-color: white;
+    background-color:white;
     color: black;
 }
 
-.main-title{
-    padding-left: 20px;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-.main{
-    background-color: #cccccc;
-    padding: 30px;
+nav li{
+    display: inline;
+    margin-left: 15px;
 }
 
-#banner{
-    width: 100%;
+nav a {
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
 }
 
-.centralize-title{
-    text-align: center;
+nav{
+    position: absolute;
+    top: 115px;
+    right: 0;
 }
+ .box{
+     position: relative;
+     width: 940px;
+     margin: 0 auto;
+ }
 
-p {
-    text-align: center;
-}
+ .product{
+     width: 940px;
+     margin: 0 auto;
+     padding: 50px 0;
+ }
 
-#mission{
-    font-size: 20px;
-}
+ .product li{
+     display: inline-block;
+     text-align: center;
+     width: 30%;
+     vertical-align: top;
+     margin: 0 1.5%;
+     padding: 30px 20px;
+     box-sizing: border-box;
+     border: 2px solid black;
+     border-radius: 10px;
+ }
 
-em strong{
-    color: red;
-}
+ .product li:hover {
+     border-color: #C78C19;
+ }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
+ .product li:hover h2{
+     font-size: 34px;
+ }
 
-.itens{
-    font-style: italic;
-}
+ .product li:active {
+     border-color: #088C19;
+ }
 
-.benefits{
-    padding: 20px;
-}
+ .product h2{
+     font-size: 30px;
+     font-weight: bold;
+ }
 
-.imagebenefits{
-    width: 50%;
-}
+ .product-description{
+     font-size: 18px;
+ }
+
+ .product-prize{
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 10px;
+ }
+
+ footer{
+     text-align: center;
+     background: url("imagens/bg.jpg");
+     padding: 40px 0;
+ }
+
+ .copyright{
+     color:white;
+     font-size: 13px;
+     margin-top: 20px;
+ }
